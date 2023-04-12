@@ -53,7 +53,7 @@ Users should be able to:
 
 ### Demo
 
-- Live Site URL: [Add live site URL here](https://frez-fall.github.io/todo-app/)
+- Live Site URL: [Todo App](https://frez-fall.github.io/todo-app/)
 
 ## My process
 
