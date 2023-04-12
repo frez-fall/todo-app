@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <title>Toadie: Todo App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                <h1>Todo</h1>
+                <div class="mode">
+                    <img id="mode-icon" src="images\icon-sun.svg" alt="theme-mode">
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="current-wrapper">
+                    <form id="current-form">
+                        <input type="text" name="current" placeholder="Create a new todo ...">                
+                    </form>
+                </div>
+                <div id="todo-wrapper">
+                    <form id="list-todos">
+                    </form>
+                    <ul>
+                        <li id="count-items">5 items left</li>
+                        <li class="filter-btns desktop">
+                            <input type="button" class="filter selected" value="All">
+                            <input type="button" class="filter" value="Active">
+                            <input type="button" class="filter" value="Completed">
+                        </li>
+                        <li id="clear">
+                            <input type="button" value="Clear Completed">
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-btns mb">
+                    <input type="button" class="filter selected" value="All">
+                    <input type="button" class="filter" value="Active">
+                    <input type="button" class="filter" value="Completed">
+                </div>
+                <p id="dragdrop">Drag and drop to reorder list</p>
+            </section>
+        </main>
+        <footer>
+            <p>Challenge by 
+                <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">  Frontend Mentor.</a>
+                Coded by
+                <a href="https://github.com/frez-fall" target="_blank"> Frezneal F.</a></p>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
