@@ -65,6 +65,6 @@ Users should be able to:
 
 ### Continued development
 
-- Redo the project to use a Javascript Framework, React, for implementing performance optimization, cross-platform compatibility and reusability
+- Redo the project to use a Javascript Framework for implementing performance optimization, cross-platform compatibility and reusability
 
 - to improve the site to be a Fullstack application. Users should be able to edit and delete the todos to be served in a database. Currently all the read and write operations are lost upon refreshing as the changes are not being served to a database.
