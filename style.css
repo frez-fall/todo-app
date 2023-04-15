@@ -160,7 +160,7 @@ input, button{
 }
 
 .todos input::before{
-    content: url(/images/icon-check.svg);
+    content: url(images/icon-check.svg);
     visibility: hidden;
 }
 
